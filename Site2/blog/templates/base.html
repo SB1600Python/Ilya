@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{% static 'css/login.css' %}">
+        <link rel="stylesheet" href="{% static 'main.css' %}">
+        <title>{% block title %} {% endblock %}</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="contrainer">
+                <div class="nav-row">
+        <buton><a type="submit" href="{% url 'home' %}">home</a>
+        <buton><a type="submit" href="{% url 'login' %}">login</a>
+        <buton><a type="submit" href="{% url 'register' %}">register</a>
+        <buton><a type="submit" href="{usrl 'logout'}">logout</a>
+           </div>
+        </div>
+    </div>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>

@@ -1,0 +1,37 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0, 15px ;
+    max-width: 1200px;
+}
+
+.none{
+    display: none;
+}
+
+.section {
+    padding: 70px 0;
+}
+
+.nav {
+    padding: 20xp 0;
+    border-bottom: 1xp rgb(0, 0, 0);
+    background-color: rgb (55, 55, 55, 55);
+}
+a{
+    color: rgb(135,135, 135);
+    transition: opacity 0.2s ease-in;
+    text-decoration: none;
+}
+
+button {
+    color: rgb(100, 100, 100);
+}
+
